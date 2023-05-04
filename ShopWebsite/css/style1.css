@@ -1,0 +1,126 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+  
+  /* Style the main section */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  section li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 20px);
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  section li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  section a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  section li:hover img {
+    transform: scale(1.1);
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  section p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Ahwetna Online Shop</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Ahwetna Shop</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./main.html">Log In</a></li>
+        <li><a href="https://wa.me/+96176807847">Contact Us</a></li>
+        <li><a href="#">Shopping Cart 🛒</a></li>
+      </ul>
+    </nav>
+    <button id="theme-switch">Night Theme🌙</button>
+  </header>
+
+  <main>
+    <section>
+      <img src="../imgs/product1.png" alt="Product 1">
+      <h2> Morning Rise Blend</h2>
+      <p>This is a rich and bold coffee blend, carefully crafted to help you start your day with a burst of energy.</p>
+      <button>Add to Cart $1.49</button>
+    </section>
+
+    <section>
+      <img src="../imgs/product2.png" alt="Product 2">
+      <h2>Ahwetna instant Coffee 200g.</h2>
+      <p>premium instant coffee that comes in a stylish and convenient jar, perfect for busy mornings or when you need a quick pick-me-up.</p>
+      <button>Add to Cart $2.99</button>
+    </section>
+
+    <section>
+      <img src="../imgs/product3.png" alt="Product 3">
+      <h2>Coffee Blend 400g.</h2>
+      <p>The blend consists of carefully selected coffee beans from Turkey, blended to create a unique and delicious taste profile.</p>
+      <button>Add to Cart $4.99</button>
+    </section>
+
+    <section>
+      <img src="../imgs/product4.png" alt="Product 4">
+      <h2>Ahwetna Capsules Pack</h2>
+      <p> 22 coffee capsule line that offers a wide range of delicious and aromatic coffee flavors.</p>
+      <button>Add to Cart $8.99</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 CALOR1ES WEB DEVS. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const themeSwitch = document.querySelector('#theme-switch');
+
+    themeSwitch.addEventListener('click', function() {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
